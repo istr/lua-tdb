@@ -1,4 +1,4 @@
-package = "LuaTDB"
+package = "tdb"
 version = "1.0-1"
 source = {
   url = "git://github.com/istr/lua-tdb",
