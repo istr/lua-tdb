@@ -19,7 +19,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    luatdb = {
+    tdb = {
       sources = {"src/tdb.c", "src/ltdb.c"},
       defines = {"LUA_BINDING=1"},
       incdirs = {"inc"}
