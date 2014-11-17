@@ -21,8 +21,8 @@ build = {
   modules = {
     luatdb = {
       sources = {"src/tdb.c", "src/ltdb.c"},
-      defines = {"LUA_BINDING=1"}
-      incdirs = {"inc"},
+      defines = {"LUA_BINDING=1"},
+      incdirs = {"inc"}
     }
   }
 }
